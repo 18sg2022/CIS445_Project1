@@ -4,3 +4,18 @@ body{
 h1{
     font-style: italic;
 }
+table{
+    width: auto;
+    border-color: blanchedalmond;
+    border: 1px solid;
+}
+td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.coins{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
