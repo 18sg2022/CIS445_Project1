@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Personal Webpage</title>
+<title id="title">My Personal Webpage</title>
 
 <link rel="stylesheet" href="design.css">
 <script src="scripts.js"></script>
 
 <h1 id="header">Spencer Gause's Profile</h1>
-<p>This website is dedicated to me and my interests</p>
+<h2 class="center">This website is dedicated to me and my interests</h2>
 <img src="coins.jpg" class="images">
 </head>
 <body>
 <h1>Who am I?</h1>
 <li>I am a passionate individual in the field of computer science and security.</li>
-<li>I am a Senior in the computer science at Bradley University </li>
+<li>I am a Senior in the computer science program at Bradley University </li>
 <li>I am a advocate for decentrailization, privacy, and independence</li>
-<h2>Some facts about me:</h2>
+<h2 id="Facts">Some facts about me:</h2>
 <table>
     <tr>
         <th>I Enjoy:</th>
@@ -36,17 +36,22 @@
     </tr>
 </table>
 <br>
-<img src="hacker.jpg">
+<img src="hacker.jpg" class="images">
 <br>
 <br>
-<h3>Some of my past projects:</h3>
+<h2 id="Past">Some of my past projects:</h2>
 <h3>Ethrerum Trading Program:</h3>
 <p>This was a program to buy and sell Etherum. Click the picture below to find out more information.</p>
 <a href="https://github.com/18sgause/EthereumCrpytoCurrencyTradingProgram">
 <img src="robots.jpg" class="images">
 </a>
+<p style="color: purple;">One area of interest I would like to explore is cloud computing. I have explored different services such as a 
+    The Google Cloud Products and Amazon Cloud Services. I would like a deeper understanding of these services to 
+    use services on top these products such as Docker and Kubernetese. These are powerful programs that can do a lot
+    and have a solid place within the industry and our future.
+</p>
 <br>
-<h3>Have any questions? Contact me below!</h3>
+<h3 id="contact">Have any questions? Contact me below!</h3>
 <form action="">
     <label for="name">Name:</label>
     <input type="text" id="name" placeholder="Name"> <br> <br>
@@ -54,7 +59,11 @@
     <input type="text" id="email" placeholder="@gmail.com">
     <button onclick="display(this.form)">Submit</button>
 </form>
-<br>
+<br><br>
 <a href="#header">Back to Top</a>
+<a href="#header">Who Am I</a>
+<a href="#Facts">Facts</a>
+<a href="#Past">Past Projects</a>
+<a href="#contact">Contact Me</a>
 </body>
 </html>
