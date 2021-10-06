@@ -2,15 +2,19 @@
 <html>
 <head>
 <title>My Personal Webpage</title>
+
 <link rel="stylesheet" href="design.css">
-<h1 id="header">Spencer Gause Profile</h1>
+<script src="scripts.js"></script>
+
+<h1 id="header">Spencer Gause's Profile</h1>
 <p>This website is dedicated to me and my interests</p>
 <img src="coins.jpg" class="images">
 </head>
 <body>
 <h1>Who am I?</h1>
-<p>I am a passionate individual in the field of computer science and security.</p>
-<p>I am a Senior in the computer science at Bradley University </p>
+<li>I am a passionate individual in the field of computer science and security.</li>
+<li>I am a Senior in the computer science at Bradley University </li>
+<li>I am a advocate for decentrailization, privacy, and independence</li>
 <h2>Some facts about me:</h2>
 <table>
     <tr>
@@ -18,17 +22,17 @@
         <th>I Dislike:</th>
     </tr>
     <tr>
-        <td>Privacy</td>
-        <td>Social Media</td>
+        <td class="likes">Privacy</td>
+        <td class="dislikes">Social Media</td>
         
     </tr>
     <tr>
-        <td>Security</td>
-        <td>The Government</td>
+        <td class="likes">Security</td>
+        <td class="dislikes">The Government</td>
     </tr>
     <tr>
-        <td>Programming</td>
-        <td>Taxes</td>
+        <td class="likes">Programming</td>
+        <td class="dislikes">Taxes</td>
     </tr>
 </table>
 <br>
@@ -41,6 +45,15 @@
 <a href="https://github.com/18sgause/EthereumCrpytoCurrencyTradingProgram">
 <img src="robots.jpg" class="images">
 </a>
+<br>
+<h3>Have any questions? Contact me below!</h3>
+<form action="">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Name"> <br> <br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="@gmail.com">
+    <button onclick="display(this.form)">Submit</button>
+</form>
 <br>
 <a href="#header">Back to Top</a>
 </body>

@@ -3,6 +3,7 @@ body{
 }
 h1{
     font-style: italic;
+    text-align: center;
 }
 table{
     width: auto;
@@ -20,6 +21,14 @@ td{
     margin-right: auto;
     width: 50%, 200px;
     height: 200px;
+}
+.likes{
+    color: green;
+    font-size: 18px;
+}
+.dislikes{
+    color: red;
+    font-size: 18px;
 }
 p{
     font-size: 18px;
